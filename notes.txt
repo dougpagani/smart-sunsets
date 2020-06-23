@@ -1,0 +1,58 @@
+# Two key tutorials:
+# 1. how to setup on an iphone, including non-usb cnxn *********** GOOD
+# 1hr
+https://www.youtube.com/watch?v=RBZL6PO2ytc
+https://www.freecodecamp.org/news/how-to-run-a-react-native-app-on-ios-fc427be3c375/
+# 2. Building w/ react-native ***********************************
+# 3hr
+https://www.youtube.com/watch?v=_CBYbEGvxYY
+# 3. Danny's recommended tutorial
+https://www.youtube.com/watch?v=09TeUXjzpKs
+
+# other:
+https://www.google.com/search?q=setup+and+run+an+ios+react+native+app+on+your+iphone
+################################################################################
+# View sunset times, human form:
+https://www.timeanddate.com/sun/usa/boston
+# Grab sunset times, api docs -- with url examples
+https://sunrise-sunset.org/api
+# Grab weather data
+# ** Maybe just use a public institution for this:
+# https://www.weather.gov/documentation/services-web-api
+# FUCK YOU NEED TO REMEMBER TO QUOTE FOR THE AMPERSANDS YOU IDIOT MOTHERFUCKER
+# url to try:
+curl "https://api.openweathermap.org/data/2.5/weather?q=boston&appid=4bdc110efd9a37607642df810efcc650"
+curl "https://api.openweathermap.org/data/2.5/weather?q=02215&appid=4bdc110efd9a37607642df810efcc650"
+4bdc110efd9a37607642df810efcc650
+https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=4bdc110efd9a37607642df810efcc650
+# but this one works:
+https://api.openweathermap.org/data/2.5/weather?q=London&appid=4bdc110efd9a37607642df810efcc650
+\curl http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=4bdc110efd9a37607642df810efcc650
+# hours later, still does not seem to work
+# api's available docs 
+https://openweathermap.org/api
+
+# Definition of sunset:
+- tip of sun goes underneath FLAT horizon
+    - adjusted for ray-bending (so its tip has already gone underneath horizon a few minutes before that point)
+- ~8:30pm in Boston, at summer solstice
+- 4:10pm at winter solstice
+
+# Pieces of data:
+- weather (is it going to rain)
+    - rain
+    - cloudy?
+    - too hot?
+- mosquito season?
+- calendar (workdays, once a month, randomly)
+- where-to-where (gmaps API)
+- how long do you want to sit-out for the sunset?
+    - e.g. 1 hour before
+
+# Recommended sunset spots?
+
+- Simple notification
+- Easy notification settings
+
+# android testing
+https://www.reddit.com/r/androiddev/comments/eb6kjo/cheap_phones_to_buy_for_testing/
